@@ -41,7 +41,7 @@ Then use with [glslify](https://github.com/stackgl/glslify).
 #pragma glslify: blinnPhong = require(glsl-blinn-phong)
 ```
 
-### `float blinnPhong(lightDir, viewDir, normal, shininess=20.0)`
+##### `float blinnPhong(vec3 lightDir, vec3 eyeDir, vec3 normal, float shininess)`
 Computes the specular power in the Blinn-Phong lighting model.
 
 * `lightDir` is a *unit length* `vec3` pointing from the surface point toward the light

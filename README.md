@@ -1,10 +1,10 @@
-# glsl-blinn-phong
+# glsl-specular-blinn-phong
 Computes the [Blinn-Phong](https://en.wikipedia.org/wiki/Blinn%E2%80%93Phong_shading_model) specular weight for a light source
 
 # Example
 
 ```glsl
-#pragma glslify: blinnPhongSpec = require(glsl-blinn-phong)
+#pragma glslify: blinnPhongSpec = require(glsl-specular-blinn-phong)
 
 uniform vec3 eyePosition;
 uniform vec3 lightPosition;
@@ -38,7 +38,7 @@ Then use with [glslify](https://github.com/stackgl/glslify).
 # API
 
 ```glsl
-#pragma glslify: blinnPhong = require(glsl-blinn-phong)
+#pragma glslify: blinnPhong = require(glsl-specular-blinn-phong)
 ```
 
 ##### `float blinnPhong(vec3 lightDir, vec3 eyeDir, vec3 normal, float shininess)`

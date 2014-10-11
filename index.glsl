@@ -2,7 +2,7 @@ float blinnPhongSpecular(
   vec3 lightDirection,
   vec3 viewDirection,
   vec3 surfaceNormal,
-  float shininess=20.0) {
+  float shininess) {
 
   //Calculate Blinn-Phong power
   vec3 H = normalize(viewDirection + lightDirection);

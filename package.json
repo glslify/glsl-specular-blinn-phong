@@ -1,0 +1,40 @@
+{
+  "name": "glsl-specular-blinn-phong",
+  "version": "1.0.0",
+  "description": "Blinn-Phong specular effect",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "a-big-triangle": "^1.0.0",
+    "beefy": "^2.1.1",
+    "glslify": "^1.6.0"
+  },
+  "scripts": {
+    "test": "beefy example/example.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-specular-blinn-phong.git"
+  },
+  "keywords": [
+    "glsl",
+    "phong",
+    "blinn",
+    "specular",
+    "light",
+    "glslify"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-specular-blinn-phong/issues"
+  },
+  "browserify": {
+    "transform": "glslify"
+  },
+  "homepage": "https://github.com/stackgl/glsl-specular-blinn-phong"
+}

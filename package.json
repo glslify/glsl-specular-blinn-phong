@@ -1,13 +1,12 @@
 {
   "name": "glsl-specular-blinn-phong",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Blinn-Phong specular effect",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "a-big-triangle": "^1.0.0",
     "beefy": "^2.1.1",

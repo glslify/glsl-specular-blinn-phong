@@ -30,7 +30,7 @@ void main() {
 Install with npm:
 
 ```
-npm install glsl-blinn-phong
+npm install glsl-specular-blinn-phong
 ```
 
 Then use with [glslify](https://github.com/stackgl/glslify).
